@@ -1,0 +1,84 @@
+body {
+
+    margin: 0;
+    background-color: cornsilk;
+
+}
+
+
+.nav {
+    background-color: brown;
+    width: 100%;
+    height: 60px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+
+}
+
+
+.nav .logo {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 13px;
+    width: 52px;
+    height: 48px;
+    border-radius: 50%;
+
+
+}
+
+
+.nav .LinkMenu {
+
+    margin-right: 25px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.banner {
+
+    width: 40%;
+    margin: 0;
+
+
+}
+
+.banner img {
+    width: 1270px;
+    background-size: 100%;
+    height: 200px;
+
+
+
+}
+
+.bannerlat {
+
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    padding: 50px;
+
+
+}
+
+.bannerlat .img {
+
+   border-radius: 50%;
+   margin-left: 15px;
+}
+
+.bannerlat .txtCoffe {
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    font-size: large;
+    font-style: italic;
+}
