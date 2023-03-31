@@ -57,11 +57,25 @@ body {
 
 
 
+
+}
+
+.banner .cabecalho {
+
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    font-size:xx-large;
+    text-decoration: solid;
+    text-decoration-color: brown;
+
+
 }
 
 .bannerlat {
 
-    width: 1000px;
+    width: 1200px;
     height: 300px;
     display: flex;
     padding: 50px;
@@ -72,7 +86,7 @@ body {
 .bannerlat .img {
 
    border-radius: 50%;
-   margin-left: 15px;
+   margin-left: 35px;
 }
 
 .bannerlat .txtCoffe {
@@ -82,3 +96,168 @@ body {
     font-size: large;
     font-style: italic;
 }
+
+
+.bannerlatt {
+
+    width: 1200px;
+    height: 300px;
+    display: table;
+    padding: 50px;
+    background-color: brown;
+
+
+}
+
+.bannerlatt .img {
+
+   border-radius: 50%;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+
+.bannerlatt .txtDoce {
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: cornsilk;
+    font-size: large;
+    font-style: italic;
+   display: flex;
+   text-align: end;
+   margin-left: 300px;
+}
+
+.banner1 .cabecalho {
+    display: flex;
+    justify-content: end;
+    
+    }
+
+
+.bannerlat1 {
+
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    padding: 0px;
+    background-color: cornsilk;
+    margin-right: none;
+    margin-left: 50px;
+    box-shadow: -1px -2px 1px 10px brown;
+
+
+}
+
+.bannerlat1 img {
+
+    display: table;
+    width: 700px;
+    height: 400px;
+    margin-right: 0;
+    margin-left: 500px;
+    position: absolute;
+
+}
+
+.bannerlat1 .txtCoffe1 {
+
+    text-decoration: double;
+    text-emphasis-color: green;
+    color: green;
+    font-size: xx-large;
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.bannerlat1 .green{
+
+    width: 100px;
+    height: 10px;
+    margin-right: 1px;
+    background-color: green;
+    position: relative;
+    margin-top: 250px;
+    margin-left: 99px;
+}
+
+
+.bannerlatt1 {
+    height: 1000px;
+    width: 500px;
+    display: table;
+    background-color: brown;
+    margin-left: 410px;
+    position: absolute;
+}
+
+.bannerlatt1 .separ{
+
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: cornsilk;
+    margin-top: 10px;
+    padding: 10px;
+
+
+}
+
+.bannerlatt1 .separ1{
+
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: cornsilk;
+    margin-top: 10px;
+    padding: 10px;
+
+
+}
+
+.bannerlatt1 .title1 {
+    text-decoration: none;
+    color: cornsilk;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-left: 170px;
+ 
+
+
+
+}
+.bannerlatt1 .separ2{
+
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: cornsilk;
+    margin-top: 10px;
+    padding: 10px;
+
+
+}
+
+
+.bannerlatt1 img {
+width: 400px;
+margin-left: 48px;
+float: center;
+
+
+    animation: go-back 1s;
+  }
+  
+  @keyframes go-back {
+    from {
+      transform: translateX(100px);
+    }
+  
+    to {
+      transform: translateX(0);
+    }
+  }
+
